@@ -7,6 +7,7 @@ const App = () => {
   return (
   <div>
     <Product/>
+    <Intro />
     <About/>
     <ProductList
       Title="Goals and Company Ticket Organisers"
