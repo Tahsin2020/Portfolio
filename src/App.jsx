@@ -6,6 +6,7 @@ import ProductList from "./components/productList/ProductList";
 import Ticket from './img/CSharp_ASP.NET.png';
 import Extension from './img/Chrome_Summarizer.png';
 import Intro from './components/intro/Intro';
+import Diagnostics from './img/Diagnostics.png';
 
 const App = () => {
   const [Title, setTitle] = useState(true)
@@ -30,6 +31,12 @@ const App = () => {
         Technologies="Chrome-Developer API's, JavaScript, CSS, HTML"
         src={Extension}
         />
+        <ProductList
+          Title="Motivation Mapping Application"
+          Description="A complete app that charts your condition over time using the entries you fill in."
+          Technologies="React, CSSm ReChartsJS, Firebase"
+          src={Diagnostics}
+          />
         </div>
         :
         <div></div>
