@@ -1,6 +1,8 @@
 .pL{
     display:flex;
     height:100vh;
+    border-style: solid;
+    border-left:#71DFBE;
 }
 .pL-left{
     flex:1;
@@ -12,13 +14,16 @@
     margin-left:15%;
 }
 .pL-right{
+    margin-right:0px;
     flex:1;
     display:flex;
-    background-image: url("CSharp_ASP.NET.png");
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: 100vh 47.9vh;
-    background-position: center;
+    width:50vh;
+    align-items: center;
+    justify-content: center;
+}
+.pL-right img{
+    width:90vh;
+    height:50vh;
 }
 .pL-left-buttons{
     display:flex;
@@ -36,4 +41,23 @@
 }
 .Bottom_Margin{
     margin-bottom:50px;
+    animation: move 1s;
+    background: linear-gradient(to right, black 50%, white 50% );
+    background-size: 200% 200%;
+    -webkit-animation: Animation 1s forwards ;
+    -moz-animation: Animation 1s forwards ;
+    animation: Animation 1s forwards ;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:0% 10%;visibility: hidden; }
+    100%{background-position:100% 100%;  color:black;}
+}
+@-moz-keyframes Animation {
+    0%{background-position:0% 10%;visibility: hidden; }
+    100%{background-position:100% 100%;  color:black;}
+}
+@keyframes Animation { 
+    0%{background-position:0% 10%; visibility: hidden;}
+    100%{background-position:100% 100%;color:black; }
 }

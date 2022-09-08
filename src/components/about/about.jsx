@@ -26,9 +26,9 @@ const about = () => {
         <div className="a-award">
             <img src={Award} alt="" className="a-award-img" />
             <div className="a-award-texts">
-            <h4 className="a-award-title">To reach a form to contact me click here</h4>
+            <h4 className="a-award-title">To contact me at tahsinhasan2@gmail.com</h4>
             <p className="a-award-desc">
-              To see my resume click here
+              To see my resume please contact me through an email
             </p>
           </div>
         </div>
