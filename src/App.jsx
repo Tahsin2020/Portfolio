@@ -34,7 +34,7 @@ const App = () => {
         <ProductList
           Title="Motivation Mapping Application"
           Description="A complete app that charts your condition over time using the entries you fill in."
-          Technologies="React, CSSm ReChartsJS, Firebase"
+          Technologies="React, CSS, ReChartsJS, Firebase"
           src={Diagnostics}
           />
         </div>
