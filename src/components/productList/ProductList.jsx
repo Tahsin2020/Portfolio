@@ -28,12 +28,18 @@ const ProductList = (props) => {
           <h2 className="Bottom_Margin">{props.Description}</h2>
           <h2 className="Bottom_Margin">{props.Technologies}</h2>
           <div className='pL-left-buttons'>
+            {
+            !props.live ? <h3> Live version is <br/> still in development. </h3> :
             <div className='pL-left-live'>
-              Live Version
+              <a href={props.live}>Live Version</a>
             </div>
+            }
+            {
+            !props.github ? <h3> Github Repository <br/> hasn't been set up. </h3> :
             <div className='pL-left-live'>
-              Github
+              <a href={props.github}>Github</a>
             </div>
+            }
           </div>
         </div>
       </div>

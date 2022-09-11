@@ -27,6 +27,7 @@
 }
 .pL-left-buttons{
     display:flex;
+    text-decoration:none;
 }
 .pL-left-live{
     background: #2B2D2F;
@@ -36,8 +37,8 @@
     text-align: center;
     display: inline-block;
     margin-right:10px;
-    text-decoration: none;
     color: #71DFBE;
+    text-decoration:none;
 }
 .Bottom_Margin{
     margin-bottom:50px;
@@ -61,3 +62,14 @@
     0%{background-position:0% 10%; visibility: hidden;}
     100%{background-position:100% 100%;color:black; }
 }
+h3 {
+    margin-right: 30px;
+    color:#71DFBE;
+    border-style: solid;
+    border-radius: 5%;
+    border-color:black
+}
+a {
+    text-decoration:none;
+    color:#71DFBE;
+ }
