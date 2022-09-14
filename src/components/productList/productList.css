@@ -62,7 +62,7 @@
     0%{background-position:0% 10%; visibility: hidden;}
     100%{background-position:100% 100%;color:black; }
 }
-h3 {
+.Props {
     margin-right: 30px;
     color:#71DFBE;
     border-style: solid;
