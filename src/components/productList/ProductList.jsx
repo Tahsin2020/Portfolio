@@ -1,32 +1,33 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './productList.css'
 
 const ProductList = (props) => {
-  /*
-  let callback = (entries, observer) => {
-    entries.forEach(entry => {
-  
-    })
-  }
-  let options = {
-    root: document.querySelector('.pL-right'),
-    rootMargin: '0px',
-    threshold: 1.0
-  }
-  
-  let observer = new IntersectionObserver(callback, options);
-  
-  let target = document.querySelector('.pL-left');
-  
-  observer.observe(target); */
+  console.log("props")
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+      console.log(entry)
+      if(entry.isIntersecting){
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+
+  useEffect(() => {
+
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el)=>{observer.observe(el)})
+
+  });
 
   return (
-    <div className='pL'>
-      <div className='pL-left'>
+    <div className='pL hidden'>
+      <div className='pL-left '>
         <div className='pL-left-info'>
-          <h1 className="Bottom_Margin">{props.Title}</h1>
-          <h2 className="Bottom_Margin">{props.Description}</h2>
-          <h2 className="Bottom_Margin">{props.Technologies}</h2>
+          <h1 className="bottom_margin">{props.Title}</h1>
+          <h2 className="bottom_margin">{props.Description}</h2>
+          <h2 className="bottom_margin">{props.Technologies}</h2>
           <div className='pL-left-buttons'>
             {
             !props.live ? <h3 className='Props'> Live version is <br/> still in development. </h3> :

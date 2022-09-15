@@ -40,27 +40,8 @@
     color: #71DFBE;
     text-decoration:none;
 }
-.Bottom_Margin{
+.bottom_margin{
     margin-bottom:50px;
-    animation: move 1s;
-    background: linear-gradient(to right, black 50%, white 50% );
-    background-size: 200% 200%;
-    -webkit-animation: Animation 1s forwards ;
-    -moz-animation: Animation 1s forwards ;
-    animation: Animation 1s forwards ;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:0% 10%;visibility: hidden; }
-    100%{background-position:100% 100%;  color:black;}
-}
-@-moz-keyframes Animation {
-    0%{background-position:0% 10%;visibility: hidden; }
-    100%{background-position:100% 100%;  color:black;}
-}
-@keyframes Animation { 
-    0%{background-position:0% 10%; visibility: hidden;}
-    100%{background-position:100% 100%;color:black; }
 }
 .Props {
     margin-right: 30px;
@@ -73,3 +54,19 @@ a {
     text-decoration:none;
     color:#71DFBE;
  }
+.hidden{
+    opacity:0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 3s;
+}
+.show{
+    opacity:1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
