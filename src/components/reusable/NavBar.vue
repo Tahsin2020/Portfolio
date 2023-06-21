@@ -21,7 +21,8 @@
 
       <!-- Collapsible navigation container -->
       <!-- Navbar title -->
-      <a class="pr-2 text-xl font-semibold text-white" href="#">Navbar</a>
+      <router-link class="pr-2 text-xl font-semibold text-white" to="/Home" data-te-nav-link-ref>Tahsin's
+        Portfolio</router-link>
 
 
       <!-- Right elements -->

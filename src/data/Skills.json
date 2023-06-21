@@ -1,20 +1,102 @@
 [
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
+    "Description": "React",
     "Link": "",
-    "Class": "shadow-gray-600"
+    "Class": "red"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
+    "Description": "Flask",
     "Link": "",
-    "Class": "shadow-amber-700"
+    "Class": "red"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": "#",
-    "Class": "shadow-gray-600"
+    "Description": "JavaScript",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Python",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "SDL2",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "C",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "C#",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "C++",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Circuit Python",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "CSS",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "ASP.NET",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Bootstrap",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "GameMaker",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "MySQL",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Numpy",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "SDL2",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Tailwind CSS",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Unity",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Circuit Python",
+    "Link": "",
+    "Class": "red"
+  },
+  {
+    "Description": "Vue",
+    "Link": "",
+    "Class": "red"
   }
 ]
