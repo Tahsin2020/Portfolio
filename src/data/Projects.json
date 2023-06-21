@@ -1,17 +1,17 @@
 [
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Description": "This Portfolio Page - Vue, Tailwind CSS, Bootstrap, Figma",
+    "Position": "Made using the above technologies after designing in Figma, allows one to communicate to me directly through the contact form, view all my projects on Github and see my skills/experiences.",
+    "Link": "https://github.com/Tahsin2020/Portfolio"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Description": "Ticketing Website - C#, ASP.NET, Bootstrap, MySQL",
+    "Position": "Made using the above technologies, works as a standard ticketing system, anyone who has logged in can view all tickets, delete them, complete them, and add to them. Updates the MySQL database using SQL commands, has user management.",
+    "Link": "https://github.com/Tahsin2020/Ticketing-Website"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": "#"
+    "Description": "Diagnostics Evaluate - React, Firebase, Recharts",
+    "Position": "Made using the above technologies, allows one to record their current condition in a database, then view it later in a graph. Also allows for filtering for different time periods. Has User login and sign up to keep data seperated between users.",
+    "Link": "https://github.com/Tahsin2020/Diagnostics-Evaluator"
   }
 ]

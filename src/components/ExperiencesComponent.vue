@@ -4,9 +4,9 @@ import FooterComponent from './reusable/FooterComponent.vue';
 import CardComponent from './reusable/CardComponent.vue'
 
 import data from '../data/Experiences.json'
-import Avcorp from "../assets/Avcorp.png"
-import Newsly from "../assets/newsly.png"
-import BCTOS from "../assets/BCTechOfSociety.png"
+import Avcorp from "../assets/Experiences/Avcorp.png"
+import Newsly from "../assets/Experiences/newsly.png"
+import BCTOS from "../assets/Experiences/BCTechOfSociety.png"
 data[0]["Image"] = Avcorp
 data[1]["Image"] = Newsly
 data[2]["Image"] = BCTOS

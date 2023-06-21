@@ -1,13 +1,14 @@
 <script setup>
 import NavBar from './reusable/NavBar.vue';
 import FooterComponent from './reusable/FooterComponent.vue';
+import Earth from "../assets/Earth.png"
 </script>
 <template>
   <div class="hello h-full">
     <NavBar></NavBar>
     <div class="flex flex-row" id="Portfolio">
-      <div>
-        <img src="https://samanthaming.gumlet.io/tidbits/88-css-placeholder-shown.jpg.gz" />
+      <div class="w-[528px] h-[528px]">
+        <img :src="Earth" />
       </div>
       <div class="PortfolioText">
         <div id="PortfolioTitle">Full Stack Developer</div><br />
