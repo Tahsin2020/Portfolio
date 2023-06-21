@@ -45,7 +45,8 @@ data[2]["Image"] = MyImage
                         </div>
                     </div>
                 </div>
-                <form :action="FORM_ENDPOINT" @submit="handleSubmit" method="POST" class="flex flex-row">
+                <form accept-charset="UTF-8" action="https://www.formbackend.com/f/460b66df9aece6a2" method="POST"
+                    class="flex flex-row">
                     <div class="w-[400px] h-[300px] text-white mx-10">
                         <h1 id="contact" class="mb-0">Contact Form</h1>
                         <input type="text" id="fname" name="name" placeholder="Your name.."
