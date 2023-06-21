@@ -2,16 +2,19 @@
   {
     "Description": "String",
     "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Link": "",
+    "Class": "shadow-gray-600"
   },
   {
     "Description": "String",
     "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Link": "",
+    "Class": "shadow-amber-700"
   },
   {
     "Description": "String",
     "Image": "../assets/React-icon.svg",
-    "Link": "#"
+    "Link": "#",
+    "Class": "shadow-gray-600"
   }
 ]

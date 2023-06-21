@@ -19,7 +19,7 @@ data[2]["Image"] = MyImage
     </div>
     <div class="flex flex-row justify-center flex-wrap">
       <CardComponent v-for="date in data" :key="date.id" :Description="date.Description" :Image="date.Image"
-        :Link="date.Link" />
+        :Link="date.Link" :Class="date.Class" />
     </div>
     <FooterComponent></FooterComponent>
   </div>

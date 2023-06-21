@@ -10,12 +10,16 @@ const props = defineProps({
     Link: {
         type: String,
         default: "#"
-    }
+    },
+    Class: {
+        type: String,
+        default: "shadow-gray-600"
+    },
 })
 console.log(props)
 </script>
 <template>
-    <div class="shadow-md shadow-gray-600 rounded-lg w-80 py-2 mx-10  mb-[10vh]">
+    <div class="shadow-md rounded-lg w-80 py-2 mx-10  mb-[10vh]" :class="Class">
         <a :href="Link">
             <img :src="Image" class="w-40 mx-auto" />
         </a>

@@ -45,19 +45,19 @@ data[2]["Image"] = MyImage
                         </div>
                     </div>
                 </div>
-                <form action="action_page.php" class="flex flex-row">
+                <form action="mailto:tahsinhasan2@gmail.com" method="post" enctype="text/plain" class="flex flex-row">
                     <div class="w-[400px] h-[300px] text-white mx-10">
                         <h1 id="contact" class="mb-0">Contact Form</h1>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.."
+                        <input type="text" id="fname" name="name" placeholder="Your name.."
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
-                        <input type="text" id="fname" name="firstname" placeholder="Subject.."
+                        <input type="text" id="fname" name="subject" placeholder="Subject.."
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
-                        <input type="text" id="fname" name="firstname" placeholder="Your Email.."
+                        <input type="text" id="fname" name="email" placeholder="Your Email.."
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
-                        <button class="mt-5">Send</button>
+                        <button class="mt-5" type="submit" value="Send">Send</button>
                     </div>
                     <div class="w-[400px] h-[300px] text-white">
-                        <textarea type="text" id="fname" name="firstname" placeholder="Message.."
+                        <textarea type="text" id="fname" name="message" placeholder="Message.."
                             class="mt-[65px] border-solid border-2 border-gray-600 h-[200px] w-full align-top p-2" />
                     </div>
                 </form>
