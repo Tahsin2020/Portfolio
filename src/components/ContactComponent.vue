@@ -45,20 +45,22 @@ data[2]["Image"] = MyImage
                         </div>
                     </div>
                 </div>
-                <form action="mailto:tahsinhasan2@gmail.com" method="post" enctype="text/plain" class="flex flex-row">
+                <form :action="FORM_ENDPOINT" @submit="handleSubmit" method="POST" class="flex flex-row">
                     <div class="w-[400px] h-[300px] text-white mx-10">
                         <h1 id="contact" class="mb-0">Contact Form</h1>
                         <input type="text" id="fname" name="name" placeholder="Your name.."
-                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
+                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
                         <input type="text" id="fname" name="subject" placeholder="Subject.."
-                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
+                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
                         <input type="text" id="fname" name="email" placeholder="Your Email.."
-                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full" />
+                            class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
                         <button class="mt-5" type="submit" value="Send">Send</button>
                     </div>
                     <div class="w-[400px] h-[300px] text-white">
-                        <textarea type="text" id="fname" name="message" placeholder="Message.."
-                            class="mt-[65px] border-solid border-2 border-gray-600 h-[200px] w-full align-top p-2" />
+                        <textarea type="text" id="fname" name="message"
+                            placeholder="Currently out of Service, switching emails and services. Please message at the account on the left."
+                            class="mt-[65px] border-solid border-2 border-gray-600 h-[200px] w-full align-top p-2"
+                            text-black />
                     </div>
                 </form>
             </div>
