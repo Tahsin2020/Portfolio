@@ -4,10 +4,12 @@ import FooterComponent from './reusable/FooterComponent.vue';
 import CardComponent from './reusable/CardComponent.vue'
 
 import data from '../data/Experiences.json'
-import MyImage from "../assets/React-icon.svg"
-data[0]["Image"] = MyImage
-data[1]["Image"] = MyImage
-data[2]["Image"] = MyImage
+import Avcorp from "../assets/Avcorp.png"
+import Newsly from "../assets/newsly.png"
+import BCTOS from "../assets/BCTechOfSociety.png"
+data[0]["Image"] = Avcorp
+data[1]["Image"] = Newsly
+data[2]["Image"] = BCTOS
 </script>
 <template>
   <div>
@@ -19,7 +21,7 @@ data[2]["Image"] = MyImage
     </div>
     <div class="flex flex-row justify-center flex-wrap">
       <CardComponent v-for="date in data" :key="date.id" :Description="date.Description" :Image="date.Image"
-        :Link="date.Link" :Class="date.Class" />
+        :Link="date.Link" :Class="date.Class" :Position="date.Position" />
     </div>
     <FooterComponent></FooterComponent>
   </div>

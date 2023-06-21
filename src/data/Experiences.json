@@ -1,17 +1,17 @@
 [
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Description": "Avcorp Industries Inc.",
+    "Position": "Software Intern and Systems Support",
+    "Link": "https://www.avcorp.com/"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": ""
+    "Description": "Newsly",
+    "Position": "Software Intern",
+    "Link": "https://www.newsly.me/"
   },
   {
-    "Description": "String",
-    "Image": "../assets/React-icon.svg",
-    "Link": "#"
+    "Description": "BC Technology for Learning Society",
+    "Position": "Junior Technician",
+    "Link": "https://reusetechbc.ca/"
   }
 ]

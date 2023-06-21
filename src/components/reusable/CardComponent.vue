@@ -12,6 +12,7 @@ const props = defineProps({
         type: String,
         default: "shadow-gray-600"
     },
+    Position: String
 })
 console.log(props)
 </script>
@@ -21,12 +22,14 @@ console.log(props)
             <a :href="Link">
                 <img :src="Image" class="max-h-40 mx-auto" />
             </a>
-            <h2 class="mt-4 text-white text-center mt-auto"> {{ Description }}</h2>
+            <h2 class="mt-4 text-white text-center"> {{ Description }}</h2>
+            <h3 class="mt-4 text-white text-center mt-auto"> {{ Position }}</h3>
         </div>
         <div v-else> <router-link to="/Projects">
                 <img :src="Image" class="max-h-40 mx-auto" />
             </router-link>
             <h2 class="mt-4 text-white text-center"> {{ Description }}</h2>
+            <h3 class="mt-4 text-white text-center mt-auto"> {{ Position }}</h3>
         </div>
     </div>
 </template>
