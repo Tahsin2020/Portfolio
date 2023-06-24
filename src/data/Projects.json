@@ -13,5 +13,30 @@
     "Description": "Diagnostics Evaluate - React, Firebase, Recharts",
     "Position": "Made using the above technologies, allows one to record their current condition in a database, then view it later in a graph. Also allows for filtering for different time periods. Has User login and sign up to keep data seperated between users.",
     "Link": "https://github.com/Tahsin2020/Diagnostics-Evaluator"
+  },
+  {
+    "Description": "OS161 Functionality - C",
+    "Position": "Designed the Operating System funcctionality of an educational operating system using C, gained knowledge and practical experience with file tables, physical memory, allocating/deallocating memory with virtual memory, etc.",
+    "Link": "https://people.ece.ubc.ca/~os161/os161-site/index.html"
+  },
+  {
+    "Description": "CPEN 291 Note Transcriber - React Native, Flask, Circuit Python, Python",
+    "Position": "Designed a simple device that transcribes handwritten notes or online images into a text file or pdf. The device can be controlled by a web app, which manipulates hardware to flip pages and take photos, by interacting with API endpoints.",
+    "Link": "https://github.com/Tahsin2020/note_transcriber/tree/master"
+  },
+  {
+    "Description": "CPEN 391 Just Dance LED Cube - MongoDB, Android Studio, Java, Lua, NodeMCU, ML Kit Pose Detection",
+    "Position": "Designed a simple device that transcribes handwritten notes or online images into a text file or pdf. The device can be controlled by a web app, which manipulates hardware to flip pages and take photos, by interacting with API endpoints.",
+    "Link": "https://github.com/Tahsin2020/LED-Dance-Cube"
+  },
+  {
+    "Description": "Focus Practice Timer - JS, CSS, HTML",
+    "Position": "A simple JS, HTML, and CSS app that shows a basic stopwatch on screen. However, every second there's a chance that it will increase 2 seconds instead of 1, and the user has to click Found to say they found the jump. The time(s) taken to find the jump is displayed in milliseconds.",
+    "Link": "https://github.com/Tahsin2020/Focus-Practice"
+  },
+  {
+    "Description": "Care Connect App - Embedded JS, Tailwind CSS, ChatGPT API, etc.",
+    "Position": "Set up an app using Tailwind CSS, and Embedded JS for API endpoints to react with Hackathon technologies and ChatGPT API. Designed the app in Figma and worked with a group to finished it and a presentation within 2 days.",
+    "Link": "https://github.com/Tahsin2020/CareConnect"
   }
 ]

@@ -7,10 +7,9 @@ import data from '../data/Experiences.json'
 import Avcorp from "../assets/Experiences/Avcorp.png"
 import Newsly from "../assets/Experiences/newsly.png"
 import BCTOS from "../assets/Experiences/BCTechOfSociety.png"
-data[0]["Image"] = Avcorp
-data[1]["Image"] = Newsly
-data[2]["Image"] = BCTOS
+import CareConnect from "../assets/Projects/CareConnect.png"
 </script>
+
 <template>
   <div>
     <NavBar></NavBar>
@@ -26,3 +25,10 @@ data[2]["Image"] = BCTOS
     <FooterComponent></FooterComponent>
   </div>
 </template>
+
+<script>
+data[0]["Image"] = Avcorp
+data[1]["Image"] = Newsly
+data[2]["Image"] = BCTOS
+data[3]["Image"] = CareConnect
+</script>
