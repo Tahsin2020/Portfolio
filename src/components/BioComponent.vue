@@ -4,9 +4,9 @@ import FooterComponent from './reusable/FooterComponent.vue';
 import Earth from "../assets/Earth.png"
 </script>
 <template>
-  <div class="hello h-full">
+  <div class="hello h-auto">
     <NavBar></NavBar>
-    <div class="flex flex-row" id="Portfolio">
+    <div class="flex-wrap" id="Portfolio">
       <div class="w-[528px] h-[528px]">
         <img :src="Earth" />
       </div>
@@ -18,8 +18,8 @@ import Earth from "../assets/Earth.png"
           everything runs exactly as it should. If you are interested in my portfolio or experience - contact me!
         </div><br />
         <div>
-          <button>Projects</button>
-          <button>Contact</button>
+          <router-link to="/Projects" id="button">Projects</router-link>
+          <router-link to="/Contact" id="button">Contact</router-link>
         </div>
       </div>
     </div>

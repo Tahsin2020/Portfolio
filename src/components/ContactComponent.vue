@@ -1,12 +1,6 @@
 <script setup>
 import FooterComponent from './reusable/FooterComponent.vue';
 import NavBar from './reusable/NavBar.vue';
-
-import data from '../data/Experiences.json'
-import MyImage from "../assets/React-icon.svg"
-data[0]["Image"] = MyImage
-data[1]["Image"] = MyImage
-data[2]["Image"] = MyImage
 </script>
 <template>
     <div>
@@ -18,7 +12,7 @@ data[2]["Image"] = MyImage
         </div>
         <div>
             <img src="../assets/map.png" class="mb-10 px-[10vh]" />
-            <div class="flex flex-row flex-wrap px-[9vh] ">
+            <div class="flex flex-row flex-wrap px-[9%] ">
                 <div class="w-[400px] text-white mx-10 mt-10">
                     <div class="flex flex-row">
                         <img src="../assets/phone.png" class="w-20 pb-10" />
@@ -47,7 +41,7 @@ data[2]["Image"] = MyImage
                 </div>
                 <form accept-charset="UTF-8" action="https://www.formbackend.com/f/460b66df9aece6a2" method="POST"
                     class="flex flex-row">
-                    <div class="w-[400px] h-[300px] text-white mx-10">
+                    <div class="w-[40%] h-[300px] text-white mx-10">
                         <h1 id="contact" class="mb-0">Contact Form</h1>
                         <input type="text" id="fname" name="name" placeholder="Your name.."
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
@@ -55,11 +49,10 @@ data[2]["Image"] = MyImage
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
                         <input type="text" id="fname" name="email" placeholder="Your Email.."
                             class="mt-10 border-solid border-2 border-gray-600 h-[50px] pl-1 w-full text-black" />
-                        <button class="mt-5" type="submit" value="Send">Send</button>
+                        <button class="mt-5" type="submit" value="Send" id="button">Send</button>
                     </div>
-                    <div class="w-[400px] h-[300px] text-white">
-                        <textarea type="text" id="fname" name="message"
-                            placeholder="Currently out of Service, switching emails and services. Please message at the account on the left."
+                    <div class="w-[40%] h-[300px] text-white">
+                        <textarea type="text" id="fname" name="message" placeholder="Put your message here"
                             class="mt-[65px] border-solid border-2 border-gray-600 h-[200px] w-full align-top p-2"
                             text-black />
                     </div>
