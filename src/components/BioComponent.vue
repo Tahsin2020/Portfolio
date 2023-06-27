@@ -10,12 +10,12 @@ import Earth from "../assets/Earth.png"
       <div class="w-[528px] h-[528px]">
         <img :src="Earth" />
       </div>
-      <div class="PortfolioText">
+      <div class="PortfolioText px-5 md:px-0">
         <div id="PortfolioTitle">Full Stack Developer</div><br />
         <div id="PortfolioName">Tahsin Hasan</div><br /><br />
-        <div id="PortfolioBio">Do you want to create a website? When creating websites, I personally work on everything
-          from design to implementation. I also ensure proper communication between the front and backend, so that
-          everything runs exactly as it should. If you are interested in my portfolio or experience - contact me!
+        <div id="PortfolioBio">I'm a Full Stack Software Engineer for 2 years building and designing software, in all
+          areas starting from web development to embedded software. If you wish to know what technologies I can work with
+          and experience I have just look around my portfolio, and contact me for any positions on the contact page.
         </div><br />
         <div>
           <router-link to="/Projects" id="button">Projects</router-link>

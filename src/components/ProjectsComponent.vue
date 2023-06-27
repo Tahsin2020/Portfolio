@@ -19,7 +19,7 @@ Note_Transcriber
     <div>
         <NavBar></NavBar>
         <div id="titleholder">
-            <h1 id="title">
+            <h1 id="title" class="text-3xl md:text-5xl">
                 Projects
             </h1>
         </div>

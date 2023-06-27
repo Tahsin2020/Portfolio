@@ -18,3 +18,9 @@ cd -
 # git add .
 # git commit -m "Portfolio fixed for mobile."
 # C:\Users\Tahsi\Documents\Programming_Projects\VuePortfolio\dist>git push --force --set-upstream https://github.com/Tahsin2020/Portfolio.git master 
+#C:\Users\Tahsi\Documents\Programming_Projects\VuePortfolio>git branch -D master 
+#C:\Users\Tahsi\Documents\Programming_Projects\VuePortfolio>git checkout -b master
+#C:\Users\Tahsi\Documents\Programming_Projects\VuePortfolio>git add dist
+
+#C:\Users\Tahsi\Documents\Programming_Projects\VuePortfolio>git subtree push --prefix dist origin master  
+git push using:  origin master

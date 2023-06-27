@@ -14,7 +14,7 @@ import CareConnect from "../assets/Projects/CareConnect.png"
   <div>
     <NavBar></NavBar>
     <div id="titleholder">
-      <h1 id="title">
+      <h1 id="title" class="text-3xl md:text-5xl">
         Experiences
       </h1>
     </div>

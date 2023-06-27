@@ -21,6 +21,7 @@ import NUMPY from "../assets/Logos/NumPy_logo_2020.svg"
 import SDL from "../assets/Logos/SDL_Logo.svg"
 import Tailwind from "../assets/Logos/Tailwind_CSS_Logo.svg"
 import Unity from "../assets/Logos/Unity_logo.png"
+import MongoDB from "../assets/Logos/MongoDB.png"
 
 
 import Vue from "../assets/vuelogo.png"
@@ -31,7 +32,7 @@ import React from "../assets/React-icon.svg"
     <div>
         <NavBar></NavBar>
         <div id="titleholder">
-            <h1 id="title">
+            <h1 id="title" class="text-3xl md:text-5xl">
                 Skills
             </h1>
         </div>
@@ -65,4 +66,5 @@ data[16]["Image"] = Tailwind
 data[17]["Image"] = Unity
 data[18]["Image"] = CircuitPython
 data[19]["Image"] = Vue
+data[20]["Image"] = MongoDB
 </script>

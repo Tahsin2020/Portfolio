@@ -12,7 +12,7 @@ import NavBar from './reusable/NavBar.vue';
         </div>
         <img src="../assets/map.png" class="mb-10 px-[10vh]" />
         <div class="flex lg:flex-row flex-col px-[9%] ">
-            <div class="w-[400px] text-white ml-[10%] lg:ml-[0px] mt-10">
+            <div class="w-[80%] lg:w-[400px] text-white ml-[10%] lg:ml-[0px] mt-10">
                 <div class="flex flex-row">
                     <img src="../assets/phone.png" class="w-20 pb-10" />
                     <div class="pt-3">
