@@ -2,6 +2,8 @@
 
 ![image](https://github.com/Tahsin2020/Portfolio/assets/62449141/e5f0805f-1ab2-4283-a9ee-d1b493b6372d)
 
+The live version is at [Live](https://tahsin2020.github.io/Portfolio/)
+
 ## Project setup
 ```
 npm install
