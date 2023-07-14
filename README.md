@@ -4,7 +4,7 @@
 
 The live version of the Portfolio is [Here](https://tahsin2020.github.io/Portfolio/)
 
-If you like my portfolio, message me for any postions with the email provided. Or, just email me if you have any comments on the website itself.
+If you like my portfolio, message me for any postions with the email provided. Or, just email me if you have any comments on the website itself. Or just call me
 
 ## Project setup
 ```
