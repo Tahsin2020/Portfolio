@@ -6,7 +6,7 @@ import NavBar from './reusable/NavBar.vue';
     <div>
         <NavBar></NavBar>
         <div id="titleholder">
-            <h1 id="title">
+            <h1 id="title" class="text-3xl md:text-5xl">
                 Message me using this form!
             </h1>
         </div>
@@ -14,7 +14,9 @@ import NavBar from './reusable/NavBar.vue';
         <div class="flex lg:flex-row flex-col px-[9%] ">
             <div class="w-[80%] lg:w-[400px] text-white ml-[10%] lg:ml-[0px] mt-10">
                 <div class="flex flex-row">
-                    <img src="../assets/phone.png" class="w-20 pb-10" />
+                    <div class="pb-10">
+                        <img src="../assets/phone.png" />
+                    </div>
                     <div class="pt-3">
                         <h1 class="font-bold">604-354-5104</h1>
                         <h1 class="text-neutral-400"> Message or Call me here, I will always check my voices messages.
@@ -31,7 +33,7 @@ import NavBar from './reusable/NavBar.vue';
                 </div>
                 <div class="flex flex-row mb-10">
                     <img src="../assets/email.png" class="w-20 pb-10" />
-                    <div class="pt-3">
+                    <div class="pt-3 w-60">
                         <h1 class="font-bold">tahsinhasan2@gmail.com</h1>
                         <h1 class="text-neutral-400"> Email me for any positions or work requests.
                         </h1>

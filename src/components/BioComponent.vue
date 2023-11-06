@@ -13,9 +13,11 @@ import Earth from "../assets/Earth.png"
       <div class="PortfolioText px-5 md:px-0">
         <div id="PortfolioTitle">Full Stack Developer</div><br />
         <div id="PortfolioName">Tahsin Hasan</div><br /><br />
-        <div id="PortfolioBio">I'm a Full Stack Software Engineer for 2 years building and designing software, in all
-          areas starting from web development to embedded software. If you wish to know what technologies I can work with
-          and experience I have just look around my portfolio, and contact me for any positions on the contact page.
+        <div id="PortfolioBio">I'm a Full Stack Software Engineer with 3 years of experience building and designing
+          software, in all areas of software development from web applications to embedded software. If you wish to know
+          what technologies I can work with
+          and what experience I have, just take a look around my portfolio. If you wish to hire me for any work, just use
+          my contact page.
         </div><br />
         <div>
           <router-link to="/Projects" id="button">Projects</router-link>
@@ -24,5 +26,4 @@ import Earth from "../assets/Earth.png"
       </div>
     </div>
     <FooterComponent></FooterComponent>
-  </div>
-</template>
+</div></template>

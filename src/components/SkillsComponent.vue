@@ -7,7 +7,6 @@ import data from '../data/Skills.json'
 import Flask from "../assets/Logos/Flask_logo.svg"
 import JS from "../assets/Logos/JS_Logo.png"
 import Python from "../assets/Logos/Python-logo.svg"
-import SDL2 from "../assets/Logos/SDL_Logo.svg"
 import C from "../assets/Logos/C_Logo.png"
 import CSS from "../assets/Logos/CSS_logo.svg"
 import Csharp from "../assets/Logos/c-sharp-logo.png"
@@ -50,21 +49,29 @@ data[0]["Image"] = React
 data[1]["Image"] = Flask
 data[2]["Image"] = JS
 data[3]["Image"] = Python
-data[4]["Image"] = SDL2
-data[5]["Image"] = C
-data[6]["Image"] = Csharp
-data[7]["Image"] = Cpp
-data[8]["Image"] = CircuitPython
-data[9]["Image"] = CSS
-data[10]["Image"] = ASPNET
-data[11]["Image"] = Bootstrap
-data[12]["Image"] = GameMaker
-data[13]["Image"] = MYSQL
-data[14]["Image"] = NUMPY
-data[15]["Image"] = SDL
-data[16]["Image"] = Tailwind
-data[17]["Image"] = Unity
-data[18]["Image"] = CircuitPython
-data[19]["Image"] = Vue
-data[20]["Image"] = MongoDB
+data[4]["Image"] = C
+data[5]["Image"] = Csharp
+data[6]["Image"] = Cpp
+data[7]["Image"] = CSS
+data[8]["Image"] = ASPNET
+data[9]["Image"] = Bootstrap
+data[10]["Image"] = GameMaker
+data[11]["Image"] = MYSQL
+data[12]["Image"] = NUMPY
+data[13]["Image"] = SDL
+data[14]["Image"] = Tailwind
+data[15]["Image"] = Unity
+data[16]["Image"] = CircuitPython
+data[17]["Image"] = Vue
+data[18]["Image"] = MongoDB
+// order an array of objects with name
+data.sort(function (a, b) {
+    if (a["Description"] < b["Description"]) {
+        return -1;
+    }
+    if (a["Description"] > b["Description"]) {
+        return 1;
+    }
+    return 0;
+});
 </script>

@@ -20,11 +20,6 @@
     "Class": "red"
   },
   {
-    "Description": "SDL2",
-    "Link": "",
-    "Class": "red"
-  },
-  {
     "Description": "C",
     "Link": "",
     "Class": "red"
@@ -36,11 +31,6 @@
   },
   {
     "Description": "C++",
-    "Link": "",
-    "Class": "red"
-  },
-  {
-    "Description": "Circuit Python",
     "Link": "",
     "Class": "red"
   },
