@@ -6,6 +6,8 @@ The live version of the Portfolio is [Here](https://tahsin2020.github.io/Portfol
 
 If you like my portfolio, message me for any postions with the email provided. Or, just email me if you have any comments on the website itself. My business phone number is also available on the website.
 
+The below is information regarding how to run the portfolio on your own machine/server.
+
 ## Project setup
 ```
 npm install
