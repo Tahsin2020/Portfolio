@@ -16,8 +16,8 @@ import NavBar from './reusable/NavBar.vue';
                 <div class="flex flex-row">
                     <img src="../assets/phone.png" class="w-20 pb-10" />
                     <div class="pt-3">
-                        <h1 class="font-bold">604-354-5104</h1>
-                        <h1 class="text-neutral-400"> Message or Call me here, I will always check my voices messages.
+                        <h1 class="font-bold">604-354-XXXX</h1>
+                        <h1 class="text-neutral-400"> If you know my full number, message or call me here.
                         </h1>
                     </div>
                 </div>
