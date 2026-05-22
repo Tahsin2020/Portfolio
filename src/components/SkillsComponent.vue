@@ -26,25 +26,6 @@ import Unity from "../assets/Logos/Unity_logo.png"
 import Vue from "../assets/vuelogo.png"
 import React from "../assets/React-icon.svg"
 
-</script>
-<template>
-    <div>
-        <NavBar></NavBar>
-        <div id="titleholder">
-            <h1 id="title">
-                Skills
-            </h1>
-        </div>
-        <div class="flex flex-row justify-center flex-wrap">
-            <CardComponent v-for="date in data" :key="date.id" :Description="date.Description" :Image="date.Image"
-                :Link="date.Link" :Class="date.Class" />
-        </div>
-        <FooterComponent></FooterComponent>
-    </div>
-</template>
-
-
-<script>
 data[0]["Image"] = React
 data[1]["Image"] = Flask
 data[2]["Image"] = JS
@@ -65,4 +46,20 @@ data[16]["Image"] = Tailwind
 data[17]["Image"] = Unity
 data[18]["Image"] = CircuitPython
 data[19]["Image"] = Vue
+
 </script>
+<template>
+    <div>
+        <NavBar></NavBar>
+        <div id="titleholder">
+            <h1 id="title">
+                Skills
+            </h1>
+        </div>
+        <div class="flex flex-row justify-center flex-wrap">
+            <CardComponent v-for="date in data" :key="date.id" :Description="date.Description" :Image="date.Image"
+                :Link="date.Link" :Class="date.Class" />
+        </div>
+        <FooterComponent></FooterComponent>
+    </div>
+</template>
