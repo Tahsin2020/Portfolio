@@ -26,7 +26,7 @@
   },
   {
     "Description": "CPEN 391 Just Dance LED Cube - MongoDB, Android Studio, Java, Lua, NodeMCU, ML Kit Pose Detection",
-    "Position": "Designed a simple device that transcribes handwritten notes or online images into a text file or pdf. The device can be controlled by a web app, which manipulates hardware to flip pages and take photos, by interacting with API endpoints.",
+    "Position": "Developed a system to display a human moving on a cube of 8x8x8 LEDs, their movements scanned by a Pose Detection model and communicated through an Android App to hardware to trigger controlled electrical signals, with data storage for usage metrics.",
     "Link": "https://github.com/Tahsin2020/LED-Dance-Cube"
   },
   {
