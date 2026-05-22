@@ -25,9 +25,8 @@ console.log(props)
             <h2 class="mt-4 text-white text-center"> {{ Description }}</h2><br />
             <h3 class="mt-4 text-slate-300 text-center mt-auto"> {{ Position }}</h3>
         </div>
-        <div v-else> <router-link to="/Projects">
-                <img :src="Image" class="max-h-40 mx-auto" />
-            </router-link>
+        <div v-else> 
+                <img :src="Image" class="max-h-40 mx-auto" />\
             <h2 class="mt-4 text-white text-center"> {{ Description }}</h2>
             <h3 class="mt-4 text-slate-300 text-center mt-auto"> {{ Position }}</h3>
         </div>
